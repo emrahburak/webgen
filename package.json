@@ -1,16 +1,28 @@
 {
-  "name": "webpack-gen",
+  "name": "webgen",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node main.js"
+  "description": "generate webpack-with-babel",
+  "main": ".lib/index.js",
+  "directories": {
+    "lib": "lib"
   },
-  "keywords": [],
-  "author": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emrahburak/pack-js.git"
+  },
+  "author": "emrahburak",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emrahburak/pack-js/issues"
+  },
+  "homepage": "https://github.com/emrahburak/pack-js#readme",
   "dependencies": {
     "shelljs": "^0.8.4"
+  },
+  "bin": {
+   "webgen": "./bin/webgen.js"
   }
 }
